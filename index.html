@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+    <meta name="description" content="Meet our feel-good flower subscription. Based on your preferences, our growers send you bouquets of sustainably grown, in-season blooms direct from fields around the world." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script defer src="script.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    
+    <title>Blossom &mdash; Your flower subscription</title>
+  </head>
+  
+  <body>
+    <!-- NAV -->
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Blossom logo" src="img/blossom-logo.png" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#about">About us</a></li>
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Sign up</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+
+
+    <main>
+
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="hero">
+            <h1 class="heading-primary">Blossom</h1>
+            <p class="hero-description">
+              Meet our feel-good flower subscription
+            </p>
+            <a href="#about" class="btn btn--outline">Learn more &darr;</a>
+        </div>
+      </section>
+
+      <!-- ABOUT US -->
+  
+      <section class="section-about-us" id="about">
+        <div class="container grid grid--2-cols grid--center-v">
+          <div class="about-us-img-box">
+            <img
+              src="img/about-us.png"
+              class="about-us-img"
+              alt="Three photos of flowers"
+            />
+          </div>
+          <div class="about-us-text-box">
+            <p class="about-us-header">About us</p>
+            <h3 class="heading-tertiary">Your monthly dose of joy</h3>
+            <p class="about-us-description">
+              We think that flowers should not just be for the big occasions. They are here to brighten the everyday too. And if you were looking for a way to get them delivered regularly, we can help. Whether for yourself or someone else, our fuss-free flower subscriptions are packed full of mood-boosting, room-lifting stems. Each bunch we send is thoughtfully designed by our florist and inspired by the changing seasons. 
+            </p>
+            <p class="about-us-description">And we have got something to suit everyone!</p>
+          </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section class="section-how" id="how">
+        <div class="container align-center">
+          <span class="subheading">How it works</span>
+          <h2 class="heading-secondary">
+            Your daily dose of happiness in 3 simple steps
+          </h2>
+        </div>
+        <div class="container steps--grid">
+          <div>
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">
+              Pick your favourite style</h3>
+              <p class="step-description">
+                Based on your preferences, our growers send you bouquets of sustainably grown blooms direct from our fields.
+              </p>
+            </div>
+
+              <div>
+                <p class="step-number">02</p>
+                <h3 class="heading-tertiary">Choose your delivery frequency</h3>
+                <p class="step-description">
+                  Order a one-time delivery or subscribe for regular deliveries. Pause or cancel anytime. 
+                </p>
+              </div>
+
+            <div>
+              <p class="step-number">03</p>
+              <h3 class="heading-tertiary">Make it happen!</h3>
+              <p class="step-description">
+                We will send step-by-step arranging instructions with your delivery and help with any questions.
+              </p>
+            </div>
+        </div>
+      </section>
+
+      <!-- BEST-SELLING SUBSCRIPTIONS -->
+
+      <section class="section-subscriptions" id="pricing">
+        <div class="container center-text">
+          <h2 class="heading-secondary">Best-selling subscriptions</h2>
+        </div>
+
+        <div class="container grid grid--4-cols margin-bottom-md">
+          <div class="subscription">
+            <img
+              src="img/subscription-1-small.jpg"
+              class="subscription-img"
+              alt="Dahlia Perch Hill flowers"
+            />
+            <div class="subscription-content">
+                <p class="subscription-title">Dahlia Hill</p>
+                <p class="subscription-text">Magnificent curved and luscious flowers. Rich stripes over a petal base. </p>
+                <ul class="list">
+                  <li class="list-item"><ion-icon class="subscription-icon" name="calendar-outline"></ion-icon><span>Stay fresh for a 2 weeks</span></li>
+                  <li class="list-item"><ion-icon class="subscription-icon" name="cut-outline"></ion-icon><span>Easy to take care of</span></li>
+                  <li class="list-item"><ion-icon class="subscription-icon" name="star-outline"></ion-icon><span><strong>4.9</strong> rating (142)</span></li>
+                </ul>
+                <div class="subscription-cta">
+                <a class="main-nav-link nav-cta" href="#">More details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="subscription">
+            <img
+              src="img/subscription-2-small.jpg"
+              class="subscription-img"
+              alt="Blue Hydrangea flowers"
+            />
+            <div class="subscription-content">
+                <p class="subscription-title">Hydrangea</p>
+                <p class="subscription-text">A bundle of natural blue hydrangeas, shipped directly to your door.
+                </p>
+                <ul class="list">
+                  <li class="list-item"><ion-icon class="subscription-icon" name="calendar-outline"></ion-icon><span>Stay fresh for a 3 weeks</span></li>
+                  <li class="list-item"><ion-icon class="subscription-icon" name="cut-outline"></ion-icon><span>Easy to take care of</span></li>
+                  <li class="list-item"><ion-icon class="subscription-icon" name="star-outline"></ion-icon><span><strong>4.8</strong> rating (121)</span></li>
+                </ul>
+                <div class="subscription-cta">
+                  <a class="main-nav-link nav-cta" href="#">More details</a>
+                </div>
+            </div>
+          </div>
+           
+
+          <div class="subscription">
+            <img
+              src="img/subscription-3-small.jpg"
+              class="subscription-img"
+              alt="Ball Dahlia flowers"
+            />
+            <div class="subscription-content">
+                <p class="subscription-title">Ball Dahlia</p>
+                <p class="subscription-text">Huge, pillowy flowers which open pale pink then fade to the perfect colour.</p>
+                <ul class="list">
+                  <li class="list-item"><ion-icon class="subscription-icon" name="calendar-outline"></ion-icon><span>Stay fresh for a 2 weeks</span></li>
+                  <li class="list-item"><ion-icon class="subscription-icon" name="cut-outline"></ion-icon><span>Easy to take care of</span></li>
+                  <li class="list-item"><ion-icon class="subscription-icon" name="star-outline"></ion-icon><span><strong>4.9</strong> rating (138)</span></li>
+                </ul>
+                <div class="subscription-cta">
+                  <a class="main-nav-link nav-cta" href="#">More details</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="subscription">
+            <img
+              src="img/subscription-4-small.jpg"
+              class="subscription-img"
+              alt="Ball Dahlia flowers"
+            />
+            <div class="subscription-content">
+                <p class="subscription-title">Gypsophila</p>
+                <p class="subscription-text">Also known as Baby's Breath, commonly used to create a softening effect.</p>
+                <ul class="list">
+                  <li class="list-item"><ion-icon class="subscription-icon" name="calendar-outline"></ion-icon><span>Stay fresh for a 6 weeks</span></li>
+                  <li class="list-item"><ion-icon class="subscription-icon" name="cut-outline"></ion-icon><span>Easy to take care of</span></li>
+                  <li class="list-item"><ion-icon class="subscription-icon" name="star-outline"></ion-icon><span><strong>4.6</strong> rating (138)</span></li>
+                </ul>
+                <div class="subscription-cta">
+                  <a class="main-nav-link nav-cta" href="#">More details</a>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container all-subscriptions">
+          <a href="#" class="link">See all subscriptions &rarr;</a>
+        </div>
+      </section>
+
+      <!-- CTA SECTION -->
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Start your flower subscription</h2>
+              <p class="cta-text">
+                Whether for yourself or someone else, our flower subscriptions are packed full of mood-boosting, room-lifting stems. You can cancel or pause anytime.
+              </p>
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">First name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="John"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="full-name">Surname</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Smith"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+
+                <button class="btn btn--form">Sign up now</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman holding flowers"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col"> 
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Blossom logo" src="img/blossom-logo.png" />
+         </a>
+          <ul class="social-links"> 
+            <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
+            <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
+            <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li> 
+          </ul>
+          <p class="copyright">Copyright &copy; <span class="year">2027</span> by Blossom, Inc. All rights reserved.</p>
+      </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370<a/><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com">hello@blossom.com</a>
+              
+            </p>
+            </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#about">About Blossom</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Our partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resourses</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory</a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Pravicy & terms</a></li>
+          </ul>
+        </nav>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
